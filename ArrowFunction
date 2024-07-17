@@ -1,0 +1,7 @@
+const agecalc = function(birthyear){
+    return 2050 - birthyear;
+}
+
+const agecalc1 = birthyear => 2050-birthyear;
+const calcAge = agecalc1(1991);
+console.log(calcAge);
