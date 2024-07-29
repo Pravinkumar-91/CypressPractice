@@ -1,0 +1,106 @@
+'use strict'
+/*const teams = ['india', 'australia', 'england', 'pakistan', 'afghanistan'];
+console.log(teams);
+
+//const all = teams.push('westindies');
+//console.log(teams);
+//teams.unshift('america');
+//console.log(teams);
+
+//teams.splice(1,3,'england')
+//console.log(teams)
+
+//teams.push('south africa')
+//console.log(teams)
+//teams.pop('south africa')
+//console.log(teams)
+
+//teams.splice(1,2,'dubai')
+//console.log(teams)
+
+let number = [1,2,4,5,6,7,8,9,10]
+let even = number.filter((num) =>{
+    return num%2===0
+})
+console.log(even)
+
+function add(a,b){return a+b}
+console.log(add(3,5))
+
+const add1 = function (a,b){return a+b}
+console.log(add1(2,2))
+
+const add2 = (a,b)=>a+b
+console.log(add2(3,7))
+
+let data = (id, name)=>({id, name})
+console.log(data(12,'pravin'))
+
+//const arr = new Map(['pravin', 200],['koki',100],['sasti',300])
+//let data1 = arr.get('pravin')
+//console.log(arr.forEach())
+
+const fruits = ['apple','mango','banana']
+//const fruitsName = fruits.filter(function (fav){return fav==='apple'})
+//console.log(fruitsName)
+
+//const fruitsName = fruits.filter((fav) =>{
+  //  return fav==='apple'})
+
+    //console.log(fruitsName)
+
+    const calcTip=function(bill){
+        return bill>=50 && bill <=300 ? bill*0.15: bill*0.2;
+     };
+      const bills=[125,555,44];
+      const tips=[calcTip(bills[0]),  calcTip(bills[1]),  calcTip(bills[2])];
+      const totals=[bills[0]+tips[0], bills[1]+tips[1], bills[2]+tips[2]];
+     
+      console.log(bills,tips,totals);*/
+
+const arr = [100,300,200,600,500]
+const arr1 = Array.of('kumar',400,'QEA',4.4)
+//console.log(arr1)
+let str = 'pravin kumar'
+const ar = Array.from(str)
+//console.log(ar)
+
+arr1.push('sastika',222)
+//console.log(arr1)
+
+//let newarr = arr1.map(x=>x+'f')
+//console.log(newarr)
+
+//let newval = arr1.filter(x=>x==='QEA')
+//console.log(newval+' successful')
+
+const arr0 = [1,2,6,5,4,3,7,8]
+//let sum = arr0.reduce((a,b)=>a+b,0)
+//console.log(sum)
+
+arr1.sort((a,b)=>a-b)
+//console.log(arr1)
+
+const strg = ['abc','xyz','mno','stu']
+strg.sort((a,b)=>a-b)
+//console.log(strg)
+
+
+//console.log(arr0.reverse())
+
+let newone=arr1.concat(arr0)
+//console.log(newone)
+//console.log(arr0.unshift(6))
+//console.log(arr0)
+arr1.forEach(function(num){console.log(num)})
+arr0.forEach(function(newone){console.log(newone)})
+arr0.forEach(function(lowone){console.log(lowone>arr0)})
+/*function element(arr0,callback){
+  const result = []
+  for(const allArray of arr0){
+result.push(callback(allArray));
+  }
+  return result;
+}
+console.log(result)*/
+

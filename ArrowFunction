@@ -5,3 +5,9 @@ const agecalc = function(birthyear){
 const agecalc1 = birthyear => 2050-birthyear;
 const calcAge = agecalc1(1991);
 console.log(calcAge);
+
+const agecal = ageyear => 2024 - ageyear;
+const age1 = agecal(1991);
+
+console.log(age1);
+
