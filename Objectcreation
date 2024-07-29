@@ -1,0 +1,11 @@
+const data = {firstName : 'Pravin',
+lastName : 'kumar',
+birthyear : 1991,
+hasJob : true,
+role : ['QEA','Tester','anyalist'],
+age : function(){
+return 2024 - this.birthyear }
+};
+
+console.log(data.age());
+console.log(data.role);

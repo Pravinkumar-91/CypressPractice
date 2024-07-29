@@ -1,0 +1,11 @@
+// for(let i=0;i<=10;i++){
+//     console.log(i);
+// }
+
+const data = {firstName : 'pravin',
+lastName : 'kumar',
+birthYear : 1991,
+indian : true,
+const agevalue : function eligble(){
+    return age = 2024 -this.birthYear;
+} };

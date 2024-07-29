@@ -1,0 +1,13 @@
+function totalMatches(india){
+    return india * 8;
+}
+function worldCup(league, semi){
+
+    const leaguematches = totalMatches(league);
+    const semimatches = totalMatches(semi);
+
+    const matches = 'winning match on ${league} league and in ${semi} semi matche';
+    return matches;
+}
+
+console.log(worldCup(4, 2));
